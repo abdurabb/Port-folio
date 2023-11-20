@@ -24,7 +24,7 @@ const Experiences = () => {
           }}
         >
           <div className="content">
-            <span>DEC 2022 - AUG 2023</span>
+            <span>DEC 2022 - NOV 2023</span>
           </div>
           <div className="overlay" />
         </div>
@@ -67,7 +67,7 @@ const Experiences = () => {
         <div className="content">
           <p className="experience_description__iz3mi">
             Learned Full Stack Web Development using MERN Stack and developed
-            multiple projects including E-Commerce and Community Web app.
+            multiple projects.
           </p>
         </div>
         <div className="overlay" />

@@ -13,10 +13,11 @@ const Aboutme = () => {
         >
           <div className="content">
             <p className="about_aboutText__6K4t_ about_highlightFirstLetter__Q7tbo">
-              Hey! I`m Akhil, if you haven`t already gathered that by now. I`m a
-              self-taught software engineer from Kerala, India. I specialize in
-              the backend, primarily Node, but love building with whatever tools
-              are right for the job.
+              Hey!"Abdul Rubb A",  a passionate MERN stack developer hailing
+              from the vibrant city of Kannur in Kerala, India, is on an unwaver
+              ing journey towards technological excellence. With a Bachelor's in
+              Arabic and an ongoing pursuit of a Master's degree, Abdul Rubb enriches
+              his technical acumen with a diverse educational background.
             </p>
           </div>
           <div className="overlay"></div>
@@ -30,11 +31,11 @@ const Aboutme = () => {
         >
           <div className="content">
             <p className="about_aboutText__6K4t_">
-              I'm a MERN stack developer with a strong foundation in front-end
-              and back-end web development. Proficient in modern technologies
-              such as React, Node.js, Express.js and MongoDB. Seeking a
-              challenging and dynamic role to utilize and experience to create
-              intuitive and visually appealing web applications.
+              Alongside his academic accomplishments, Abdul Rubb holds diplomas in Computer Application and Financial Accounting, solidifying a multifaceted skill set that transcends traditional boundaries.
+
+              Driven by an insatiable curiosity and a love for coding, Abdul Rubb has dived into the realm of MERN (MongoDB, Express, React, Node) stack development. His relentless commitment has culminated in the successful completion of several projects, demonstrating not only technical prowess but also a keen understanding of industrial standards.
+
+              Not confined to the world of technology, Abdul Rubb finds solace in the realms of gaming and music. These hobbies not only provide a break from lines of code but also inspire creative problem-solving and innovation.
             </p>
           </div>
           <div className="overlay"></div>
@@ -48,11 +49,9 @@ const Aboutme = () => {
         >
           <div className="content">
             <p className="about_aboutText__6K4t_">
-              I have built, implemented, and supported programs using my own
-              learning. Problem-solving aptitude and a spirit of competition,I
-              have excellent flexibility and adaptation, good work ethics,
-              leadership and decision-making abilities, punctuality and
-              availability, and flexibility.
+              Abdul Rubb's journey is underscored by a track record of developing
+              two substantial industrial-standard projects, showcasing his proficiency,
+              dedication, and the ability to transform concepts into tangible, high-quality solutions.
             </p>
           </div>
           <div className="overlay"></div>
@@ -66,10 +65,10 @@ const Aboutme = () => {
         >
           <div className="content">
             <p className="about_aboutText__6K4t_">
-              I have proven experience in building 2 big industrial standard
-              projects and those projects and my skillset have been tested and
-              verified by experienced developers as well. So easily
-              match my skill and expertise to 2 years of experienced person. 🔗
+              With an unwavering passion for technology and a commitment
+              to continuous learning, Abdul Rubb stands as a dedicated professional
+              ready to contribute his expertise and innovation to the ever-evolving
+              landscape of MERN stack development." 🔗
             </p>
           </div>
           <div className="overlay"></div>
@@ -85,6 +84,7 @@ const Aboutme = () => {
             <div className="about_links__7hF9X">
               <div className="about_linksText__OPa1o">
                 <span>My links</span>
+                
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -102,7 +102,7 @@ const Aboutme = () => {
                   <a
                     target="_blank"
                     rel="nofollow"
-                    href="https://www.linkedin.com/in/akhil-haridas-a8447125b"
+                    href="https://www.linkedin.com/in/abdurabb-cheleri-786b48259/"
                   >
                     <svg
                       stroke="currentColor"
@@ -121,7 +121,7 @@ const Aboutme = () => {
                   <a
                     target="_blank"
                     rel="nofollow"
-                    href="https://github.com/akhil-haridas"
+                    href="https://github.com/abdurabb"
                   >
                     <svg
                       stroke="currentColor"
@@ -142,7 +142,7 @@ const Aboutme = () => {
                     rel="nofollow"
                     href="https://twitter.com/4khiltweets"
                   >
-                    <svg
+                    {/* <svg
                       stroke="currentColor"
                       fill="currentColor"
                       strokeWidth={0}
@@ -151,8 +151,10 @@ const Aboutme = () => {
                       width="2.4rem"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm215.3 337.7c.3 4.7.3 9.6.3 14.4 0 146.8-111.8 315.9-316.1 315.9-63 0-121.4-18.3-170.6-49.8 9 1 17.6 1.4 26.8 1.4 52 0 99.8-17.6 137.9-47.4-48.8-1-89.8-33-103.8-77 17.1 2.5 32.5 2.5 50.1-2a111 111 0 0 1-88.9-109v-1.4c14.7 8.3 32 13.4 50.1 14.1a111.13 111.13 0 0 1-49.5-92.4c0-20.7 5.4-39.6 15.1-56a315.28 315.28 0 0 0 229 116.1C492 353.1 548.4 292 616.2 292c32 0 60.8 13.4 81.1 35 25.1-4.7 49.1-14.1 70.5-26.7-8.3 25.7-25.7 47.4-48.8 61.1 22.4-2.4 44-8.6 64-17.3-15.1 22.2-34 41.9-55.7 57.6z"></path>
-                    </svg>
+                      <path d=""></path>
+                    </svg> */}
+
+                    
                   </a>
                 </span>
               </div>
@@ -195,11 +197,11 @@ const Aboutme = () => {
                 <span className="chip">Redux Toolkit</span>
                 <span className="chip">NodeJS</span>
                 <span className="chip">ExpressJS</span>
-                <span className="chip">PostgreSQL</span>
+                <span className="chip">SQL</span>
                 <span className="chip">GitHub</span>
                 <span className="chip">EJS - HBS</span>
                 <span className="chip">MongoDB</span>
-                <span className="chip">AWS EC2</span>
+                <span className="chip">AWS </span>
                 <span className="chip">JSON Webtoken</span>
                 <span className="chip">MVC Arch.</span>
                 <span className="chip">RESTful API</span>
@@ -241,16 +243,17 @@ const Aboutme = () => {
                 <span className="chip">Tailwind CSS</span>
                 <span className="chip">Bootstrap 5</span>
                 <span className="chip">Socket.IO</span>
-                <span className="chip">Cloudinary</span>
+                
                 <span className="chip">NGINX</span>
                 <span className="chip">Figma</span>
                 <span className="chip">Firebase</span>
                 <span className="chip">Postman</span>
-                <span className="chip">Material UI</span>
+               
                 <span className="chip">Nodemailer</span>
-                <span className="chip">OAuth 2.0</span>
+               
                 <span className="chip">Stripe</span>
                 <span className="chip">RazorPay</span>
+                <span className="chip">Stripe</span>
               </div>
             </div>
           </div>
