@@ -1184,3 +1184,20 @@ a {
     font-family: __Poppins_5a8ae0, __Poppins_Fallback_5a8ae0;
     font-style: normal
 }
+
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #333; /* adjust to your theme */
+  }
+  
+  .contactItem svg {
+    flex-shrink: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  
