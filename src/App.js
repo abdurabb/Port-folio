@@ -61,7 +61,7 @@ function App() {
           <Heading />
           <Head />
           <About />
-          {/* <Projects /> */}
+          <Projects />
           <Experience />
           <Contact />
           <div

@@ -3,46 +3,105 @@ import ProjectCard from "../components/ProjectCard/ProjectCard";
 import Modal from "../components/Modal/Modal";
 import ecommerce from '../assets/Ecommerce.png'
 import community from '../assets/Guide-Community.png'
+import livera from '../assets/livera.png'
+import clinic from '../assets/clinic.png'
+import education from '../assets/education.png'
+import employme from '../assets/employme.png'
+import curtain from '../assets/curtain.jpeg'
+
 const projects = [
   {
-    name: "BUILD DREAM - Community",
-    imageSrc: community,
-    githubLink: "https://github.com/akhil-haridas/Build_Dream_Project",
-    liveProjectLink: "https://build-dream.vercel.app",
+    name: "Nextis Market – E-commerce Platform",
+    imageSrc: ecommerce, // replace with actual import
+    githubLink: "https://github.com/abdurabb/pulimart",
+    liveProjectLink: "https://nexis-market-panel.vercel.app/",
     techStack:
-      "React.js - Node.js - Express.js - MongoDB - Redux Toolkit - Stripe - JWT - Tailwind CSS - Firebase - OAuth 2.0",
+      "React.js - Node.js - Express.js - MongoDB - JWT - Twilio - Swagger - REST API - Tailwind CSS",
     description:
-      "Build Dream is an innovative MERN web app that is revolutionizing home construction by delivering a seamless and transparent experience to users....",
+      "A scalable multi-vendor e-commerce platform with secure authentication, vendor and order management.",
     features: [
-      "➔ Developed a 4-role web application with distinct roles for Professionals, Shops, Clients and Admin",
-      "➔ Enabled real-time chat functionality for seamless communication using Socket.io",
-      "➔ Designed a user-friendly interface with React's component-based structure help of tailwind css and implemented a robust Backend following the MVC Architecture",
-      "➔ Successfully integrated the Stripe Payment Gateway for convenient subscription plans.",
-      "➔ Implemented secure authentication with JWT and utilized Vonage OTP , OAuth 2.0 and Nodemailer for Signup verification.",
-      "➔ Plnned and implemented the whole module with REST APIS.",
-      "➔ Empowered Admin with comprehensive tracking capabilities, user management, and category addition.",
+      "➔ Built product, order, and vendor modules with secure JWT authentication.",
+      "➔ Integrated Twilio for OTP verification and implemented detailed Swagger API documentation.",
+      "➔ Collaborated with mobile team and optimized backend for scalability.",
     ],
   },
   {
-    name: "ADDRESS Store - Ecom.",
-    imageSrc: ecommerce,
-    githubLink: "https://github.com/akhil-haridas/Ecommerce---Project",
-    liveProjectLink: "https://addressfashion.onrender.com",
+    name: "EduNexis – Education Platform",
+    imageSrc: education, // replace with actual import
+    githubLink: "https://github.com/abdurabb/edu-nexis", // if not published, remove
+    liveProjectLink: "https://education.owpmf.tech/",
     techStack:
-      "Node.js - Express.js - EJS - MongoDB - Ajax - jQuery - Bootstrap - Razorpay - Twilio",
-    description: `ADDRESS is a sleek and modern eCommerce platform, dedicated to offering trendy clothing for the fashion-conscious man.It provides user-friendly....`,
+      "React.js - Node.js - Express.js - MongoDB - JWT - REST API - Figma - Flutter",
+    description:
+      "An education platform offering course management, enrollment, and secure payments across web and mobile.",
     features: [
-      "➔ Designed a user-friendly interface using CSS, SCSS, Bootstrap 5, and EJS templates",
-      "➔ Implemented Twilio SMS verification for enhanced user security during registration.",
-      "➔ Developed the backend using Node.js in MVC Architecture, ensuring maintainability and performance.",
-      "➔ Integrated RazorPay Payment Gateway for secure and efficient transactions.",
-      "➔ Offered similar product recommendations and enabled customer reviews for better user engagement.",
-      "➔ Utilized MongoDB for the database, ensuring efficient data management",
-      "➔ Enhanced visual aesthetics by utilizing Sharp and Jimp for image cropping.Generated sales reports in HTML to PDF format for effective data analysis.",
-      "➔ Hosted the project on AWS EC2, ensuring reliable and scalable deployment.",
+      "➔ Developed backend APIs for course handling and payments.",
+      "➔ Integrated with React frontend and Flutter mobile app.",
+      "➔ Led API development and ensured performance and maintainability.",
+    ],
+  },
+  {
+    name: "Livera Community – Mobile App Platform",
+    imageSrc: livera, // replace with actual import
+    githubLink: "https://github.com/abdurabb/livera-community", // if available
+    liveProjectLink: "https://www.liveraapp.com/",
+    techStack:
+      "React.js - Node.js - MongoDB - Express.js - Socket.io - JWT - Tailwind CSS",
+    description:
+      "A large-scale community platform enabling ads, business tools, and community engagement features.",
+    features: [
+      "➔ Built admin panel with React for managing users and content.",
+      "➔ Developed modules for user chat and team onboarding.",
+      "➔ Worked closely with mobile teams to ensure scalable backend.",
+    ],
+  },
+  {
+    name: "Plus Care – Booking App",
+    imageSrc: clinic, // replace with actual import
+    githubLink: "https://github.com/abdurabb/plus-care-server", // if available
+    liveProjectLink: "https://plus-care-user-web.vercel.app/",
+    techStack:
+      "React.js - Node.js - Express.js - MongoDB - Razorpay - JWT - Tailwind CSS",
+    description:
+      "A booking app for healthcare services including doctors, labs, and pharmacies.",
+    features: [
+      "➔ Built backend APIs for doctor search, lab tests, and pharmacy orders.",
+      "➔ Created admin panel for managing users and appointments.",
+      "➔ Integrated Razorpay for secure payment handling.",
+    ],
+  },
+  {
+    name: "Adam Curtains – E-commerce Platform",
+    imageSrc: curtain, // replace with actual import
+    githubLink: "https://github.com/abdurabb/adam-curtains", // if available
+    liveProjectLink: "https://www.adamcurtains.com/",
+    techStack:
+      "React.js - Node.js - Express.js - MongoDB - Stripe - PayPal - JWT",
+    description:
+      "An e-commerce platform for curtain orders with role-based panels for admin, staff, and users.",
+    features: [
+      "➔ Developed full-stack user, admin, and staff panels.",
+      "➔ Integrated Stripe and PayPal for payments.",
+      "➔ Created support and content tools for admin dashboard.",
+    ],
+  },
+  {
+    name: "EMPLOYME – Job Searching Platform",
+    imageSrc: employme, // replace with actual import
+    githubLink: "https://github.com/abdurabb/EMPLOYME",
+    liveProjectLink: "", // add link if deployed
+    techStack:
+      "React.js - Node.js - Express.js - MongoDB - Redux - JWT - Stripe - Socket.io",
+    description:
+      "A job search platform with real-time chat, subscriptions, and employer dashboards.",
+    features: [
+      "➔ Built chat system using Socket.io and subscription payments with Stripe.",
+      "➔ Developed both candidate and employer views using Redux-managed React UI.",
+      "➔ Deployed frontend and backend using Render and Vercel.",
     ],
   },
 ];
+;
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
