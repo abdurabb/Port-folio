@@ -19,25 +19,25 @@ const data = [
       "AWS",
     ],
   },
-  {
-    company: "Brototype",
-    position: "MERN Stack Developer Intern",
-    location: "Kerala",
-    duration: "DEC 2022 - NOV 2023",
-    description:
-      "Learned Full Stack Web Development using MERN Stack and developed multiple projects.",
-    technologies: [
-      "NodeJS",
-      "ExpressJS",
-      "ReactJS",
-      "Redux-Toolkit",
-      "GitTool",
-      "Data Structures & Algorithms",
-      "MongoDB",
-      "postgreSQL",
-      "Firebase",
-    ],
-  },
+  // {
+  //   company: "Brototype",
+  //   position: "MERN Stack Developer Intern",
+  //   location: "Kerala",
+  //   duration: "DEC 2022 - NOV 2023",
+  //   description:
+  //     "Learned Full Stack Web Development using MERN Stack and developed multiple projects.",
+  //   technologies: [
+  //     "NodeJS",
+  //     "ExpressJS",
+  //     "ReactJS",
+  //     "Redux-Toolkit",
+  //     "GitTool",
+  //     "Data Structures & Algorithms",
+  //     "MongoDB",
+  //     "postgreSQL",
+  //     "Firebase",
+  //   ],
+  // },
   
 ];
 
