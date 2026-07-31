@@ -50,7 +50,7 @@ const Dotgrid = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, []);
+  }, [startAnimationEvery30Seconds]);
 
   // Event handler to start the animation from the clicked dot's wrapper
   const handleDotClick = (e) => {

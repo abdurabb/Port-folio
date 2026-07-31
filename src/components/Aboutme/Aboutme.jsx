@@ -101,7 +101,8 @@ const Aboutme = () => {
                 <span>
                   <a
                     target="_blank"
-                    rel="nofollow"
+                    // rel="nofollow"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/abdurabb-cheleri-786b48259/"
                   >
                     <svg
@@ -120,7 +121,8 @@ const Aboutme = () => {
                 <span>
                   <a
                     target="_blank"
-                    rel="nofollow"
+                    // rel="nofollow"
+                    rel="noopener noreferrer"
                     href="https://github.com/abdurabb"
                   >
                     <svg
@@ -139,7 +141,8 @@ const Aboutme = () => {
                 <span>
                   <a
                     target="_blank"
-                    rel="nofollow"
+                    // rel="nofollow"
+                    rel="noopener noreferrer"
                     href="https://twitter.com/4khiltweets"
                   >
                     {/* <svg

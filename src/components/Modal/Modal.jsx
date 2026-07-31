@@ -1,9 +1,9 @@
 import React from "react";
 
 const Modal = ({ project, onClose }) => {
-const modalClassName = project
-  ? "projectmodal_modal__X7Nyj open"
-  : "projectmodal_modal__X7Nyj";
+// const modalClassName = project
+//   ? "projectmodal_modal__X7Nyj open"
+//   : "projectmodal_modal__X7Nyj";
   
   if (!project) {
     return null
@@ -61,7 +61,8 @@ const modalClassName = project
             <div className="projectmodal_links__Q7utU" id="modalLinks">
               <a
                 target="_blank"
-                rel="nofollow"
+                // rel="nofollow"
+                rel="noopener noreferrer"
                 href={project.githubLink}
                 id="sourceCodeLink"
               >
@@ -79,7 +80,8 @@ const modalClassName = project
                 Source Code
               </a>
               <a
-                target="_blank"
+                // target="_blank"
+                rel="noopener noreferrer"
                 rel="nofollow"
                 href={project.liveProjectLink}
                 id="liveProjectLink"
