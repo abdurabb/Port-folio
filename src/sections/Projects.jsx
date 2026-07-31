@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import Modal from "../components/Modal/Modal";
 import ecommerce from '../assets/Ecommerce.png'
-import community from '../assets/Guide-Community.png'
+// import community from '../assets/Guide-Community.png'
 import livera from '../assets/livera.png'
 import clinic from '../assets/clinic.png'
 import education from '../assets/education.png'
