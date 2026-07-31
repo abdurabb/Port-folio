@@ -193,7 +193,10 @@ const Aboutme = () => {
                 <span className="chip">JavaScript</span>
                 <span className="chip">HTML5</span>
                 <span className="chip">CSS3</span>
-                <span className="chip">ReactJS</span>
+                <span className="chip">React.JS</span>
+                <span className="chip">Next.JS</span>
+                <span className="chip">React Native</span>
+                <span className="chip">Word Press</span>
                 <span className="chip">Redux Toolkit</span>
                 <span className="chip">NodeJS</span>
                 <span className="chip">ExpressJS</span>
@@ -248,12 +251,12 @@ const Aboutme = () => {
                 <span className="chip">Figma</span>
                 <span className="chip">Firebase</span>
                 <span className="chip">Postman</span>
+                <span className="chip">Swagger Api</span>
                
                 <span className="chip">Nodemailer</span>
                
                 <span className="chip">Stripe</span>
                 <span className="chip">RazorPay</span>
-                <span className="chip">Stripe</span>
               </div>
             </div>
           </div>

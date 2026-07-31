@@ -2,16 +2,38 @@ import React from "react";
 
 const data = [
   {
+    company: "Future Vision for Computer System and Network",
+    position: "Full Stack Developer",
+    location: "Abu Dhabi, UAE",
+    duration: "Jun 2025 – Present",
+    description:
+      "Developing and maintaining full-stack web applications using Next.js, Node.js, Express.js, and TypeScript. Building scalable REST APIs, integrating SQL and MongoDB databases, and customizing WordPress websites based on business requirements. Additionally, providing email infrastructure support by managing business email services, domain registration and renewals, creating and maintaining domain-based email accounts, administering Zimbra Mail Server, configuring Microsoft Outlook clients, and handling email relay, routing, and DNS records (MX, SPF, DKIM, and DMARC) to ensure secure and reliable email delivery.",
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "SQL",
+      "WordPress",
+      "REST API",
+      "Zimbra",
+      "Microsoft Outlook",
+      "DNS",
+    ],
+  },
+  {
     company: "Adam Technologies LLC",
     position: "MERN Stack Developer",
-    location: "Dubai",
-    duration: "2022 – 2025",
+    location: "Dubai, UAE (India Back Office)",
+    duration: "Feb 2022 – Jun 2025",
     description:
-      "Built and deployed full-stack apps using React and Node.js. Integrated APIs, optimized performance, and collaborated with mobile and UI teams.",
+      "Worked remotely from the company's India back office for a Dubai-based software company. Developed and deployed scalable full-stack web applications using the MERN stack, integrated third-party APIs and payment gateways, optimized application performance, and collaborated with mobile developers, UI/UX designers, and QA teams to deliver production-ready solutions.",
     technologies: [
-      "ReactJS",
-      "NodeJS",
-      "ExpressJS",
+      "React.js",
+      "Node.js",
+      "Express.js",
       "MongoDB",
       "Stripe",
       "Twilio",
@@ -19,27 +41,25 @@ const data = [
       "AWS",
     ],
   },
-  // {
-  //   company: "Brototype",
-  //   position: "MERN Stack Developer Intern",
-  //   location: "Kerala",
-  //   duration: "DEC 2022 - NOV 2023",
-  //   description:
-  //     "Learned Full Stack Web Development using MERN Stack and developed multiple projects.",
-  //   technologies: [
-  //     "NodeJS",
-  //     "ExpressJS",
-  //     "ReactJS",
-  //     "Redux-Toolkit",
-  //     "GitTool",
-  //     "Data Structures & Algorithms",
-  //     "MongoDB",
-  //     "postgreSQL",
-  //     "Firebase",
-  //   ],
-  // },
-  
-  
+  {
+    company: "Brototype",
+    position: "MERN Stack Developer Intern",
+    location: "Kerala, India",
+    duration: "Jan 2021 – Dec 2021",
+    description:
+      "Completed an intensive MERN Stack training program and built multiple full-stack projects. Gained hands-on experience in frontend and backend development, REST APIs, authentication, database design, Git version control, and problem-solving through Data Structures and Algorithms.",
+    technologies: [
+      "React.js",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Firebase",
+      "Git",
+      "Data Structures & Algorithms",
+    ],
+  },
 ];
 
 

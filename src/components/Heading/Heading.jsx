@@ -21,7 +21,7 @@ const Heading = () => {
   }, []);
 
     const handleOpenResume = () => {
-      const resumePdfFileName = "Abdu Resume new.pdf";
+      const resumePdfFileName = "Abdul Rubb A.pdf";
 
       const resumePdfUrl = `${process.env.PUBLIC_URL}/${resumePdfFileName}`;
 
@@ -34,7 +34,7 @@ const Heading = () => {
         <span>
           <a
             rel="nofollow"
-            href="https://www.linkedin.com/in/abdurabb-cheleri-786b48259/"
+            href="https://www.linkedin.com/in/abdul-rubb-aklyath-786b48259/"
           >
             <svg
               stroke="currentColor"
