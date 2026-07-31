@@ -6,7 +6,7 @@ const ProjectCard = ({ project, onLearnMore }) => {
       <div className="projects_projectImage__JxEFv" id="projectImage">
         <img
           src={project.imageSrc}
-          alt={`An image of the ${project.name} project.`}
+          alt={`${project.name} project`}
           id="imageToRotate"
           onClick={onLearnMore}
           style={{ width: "85%", rotate: "0deg" }}

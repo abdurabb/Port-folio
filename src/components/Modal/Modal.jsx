@@ -36,7 +36,7 @@ const Modal = ({ project, onClose }) => {
           className="projectmodal_modalImage__EWd63"
           id="modalImage"
           src={project.imageSrc}
-          alt={`An image of the ${project.name} project.`}
+          alt={`${project.name} project`}
         />
         <div className="projectmodal_modalContent__loHbD" id="modalContent">
           <h4>{project.name}</h4>
@@ -80,9 +80,9 @@ const Modal = ({ project, onClose }) => {
                 Source Code
               </a>
               <a
-                // target="_blank"
+                target="_blank"
                 rel="noopener noreferrer"
-                rel="nofollow"
+                // rel="nofollow"
                 href={project.liveProjectLink}
                 id="liveProjectLink"
               >
