@@ -118,7 +118,7 @@ const projects = [
   {
     name: "Nextis Market – E-commerce Platform",
     imageSrc: ecommerce, // replace with actual import
-    githubLink: "https://github.com/abdurabb/pulimart",
+    // githubLink: "https://github.com/abdurabb/pulimart",
     liveProjectLink: "https://nexis-market-panel.vercel.app/",
     techStack:
       "React.js - Node.js - Express.js - MongoDB - JWT - Twilio - Swagger - REST API - Tailwind CSS",
