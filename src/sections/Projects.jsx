@@ -60,6 +60,26 @@ const projects = [
     ],
   },
   {
+    name: "GRO – Education & Career Platform",
+    imageSrc: education, // replace with actual import
+    // githubLink: "https://github.com/...", // add if available
+    liveProjectLink: "https://gogro.world/",
+    techStack:
+      "React.js - Node.js - Express.js - MongoDB - Firebase - Stripe - JWT - REST API - Figma - Flutter",
+    description:
+      "A full-stack education platform designed to deliver industry-focused courses, student enrollment, secure payments, and career-oriented learning experiences. Built scalable frontend interfaces and backend services to manage users, courses, enrollments, and transactions.",
+    features: [
+      "➔ Developed and maintained complete backend architecture using Node.js, Express.js, and MongoDB.",
+      "➔ Built responsive React.js frontend components and integrated them with RESTful APIs.",
+      "➔ Implemented secure authentication and authorization using JWT-based security.",
+      "➔ Integrated Stripe payment gateway for secure course purchases and payment processing.",
+      "➔ Utilized Firebase services for authentication, storage, and real-time application support.",
+      "➔ Designed and optimized APIs for course management, user workflows, and enrollment systems.",
+      "➔ Collaborated on UI/UX implementation from Figma designs and improved overall user experience.",
+      "➔ Managed full-stack development lifecycle, ensuring performance, scalability, and maintainability."
+    ],
+  },
+  {
     name: "Al Harbi Lawyer – Corporate Law Firm Website",
     imageSrc: alharbi, // replace with actual import
     liveProjectLink: "https://alharbilawyer.ae/",
@@ -128,22 +148,6 @@ const projects = [
       "➔ Built product, order, and vendor modules with secure JWT authentication.",
       "➔ Integrated Twilio for OTP verification and implemented detailed Swagger API documentation.",
       "➔ Collaborated with mobile team and optimized backend for scalability.",
-    ],
-  },
-
-  {
-    name: "EduNexis – Education Platform",
-    imageSrc: education, // replace with actual import
-    // githubLink: "https://github.com/abdurabb/edu-nexis", // if not published, remove
-    // liveProjectLink: "https://education.owpmf.tech/",
-    techStack:
-      "React.js - Node.js - Express.js - MongoDB - JWT - REST API - Figma - Flutter",
-    description:
-      "An education platform offering course management, enrollment, and secure payments across web and mobile.",
-    features: [
-      "➔ Developed backend APIs for course handling and payments.",
-      "➔ Integrated with React frontend and Flutter mobile app.",
-      "➔ Led API development and ensured performance and maintainability.",
     ],
   },
   {
