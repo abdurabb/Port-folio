@@ -570,7 +570,7 @@
     display: none;
 }
 
-.projects_projects__y7TVk {
+/* .projects_projects__y7TVk {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3.2rem;
@@ -580,6 +580,24 @@
 @media(max-width:768px) {
     .projects_projects__y7TVk {
         grid-template-columns: 1fr
+    }
+} */
+
+.projects_projects__y7TVk {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+}
+
+@media (max-width: 1024px) {
+    .projects_projects__y7TVk {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects_projects__y7TVk {
+        grid-template-columns: 1fr;
     }
 }
 
